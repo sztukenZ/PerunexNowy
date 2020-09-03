@@ -1,0 +1,145 @@
+body {
+  height:100%;
+  background-color: #FECB30;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+font-family: 'Alata', sans-serif;
+font-size: 1.7rem;
+}
+
+a:focus {
+  background-color: #FFC001;
+  color: #34322A;
+}
+
+a:visited{
+  background-color: #FFC001;
+  color: #34322A;
+}
+
+a:hover{
+  background-color: #9C7500;
+  color: #9C7500;
+}
+
+a:active {
+  background-color: #FFC001;
+  color: #34322A;
+}
+
+/* Phone number */
+
+#phone_number {
+  font-size: 1.7rem;
+}
+
+#phone-icon {
+  weight:2rem;
+  height:2.5rem;
+  padding-right: 7px;
+  vertical-align: text-top;
+}
+
+/* Navbar */
+/* ************ */
+
+.logo-perunex {
+  height: 3.5rem;
+  weight: 3.5rem
+}
+
+.navbar-default {
+  background-color: #FECB30;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  border-color: #34322A;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #34322A;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #9C7500;
+}
+
+/* Navbar Button */
+
+.navbar-default .navbar-toggle {
+  border-color: #FECB30;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #34322A;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #FECB30;
+
+}
+
+.navbar-toggle {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /* margin-right: 25px; */
+}
+
+/* My button */
+.btn-my {
+  background-color: #FECB30;
+  border: 1.5px solid #34322A;
+  color: #34322A;
+}
+
+.btn-my:hover {
+  background-color: #34322A;
+  color: #FECB30;
+}
+
+/* .btn-my:visited {
+  background-color: #34322A;
+  border: 1.5px solid #34322A;
+  color: #FECB30;
+} */
+
+.btn-my:active {
+  background-color: #FECB30;
+  color: #34322A;
+}
+
+.btn-my:focus {
+  background-color: #FECB30;
+  color: #34322A;
+}
+
+/* First section */
+.opacity {
+  background-color: rgba(0,0,0,.5);
+}
+
+/* .lightbulb {
+  display: flex;
+  justify-content: center;
+} */
+
+.lightbulb {
+  opacity: 0.3;
+  transform: rotate(15deg);
+  width: 28rem;
+  position: absolute;
+  z-index:0;
+  top: 15rem;
+  left: 80rem;
+}
+
+.background-color-container {
+  background-color: #34322A;
+}
+
+footer {
+  background-color: #34322A;
+  color: #FECB30;
+}
+
+footer h4 {
+  color: #FECB30;
+}
